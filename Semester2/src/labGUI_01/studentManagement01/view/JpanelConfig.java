@@ -80,7 +80,7 @@ public class JpanelConfig extends JPanel {
         preNameTextField = new JTextField("Joseph");
         preNameTextField.setPreferredSize(new Dimension(150, 30));
 
-        matricNummerDeleteTextField = new JTextField();
+        matricNummerDeleteTextField = new JTextField("123456");
 
         // position components in Gridbaglayout
         GridBagConstraints gbcView = new GridBagConstraints();
